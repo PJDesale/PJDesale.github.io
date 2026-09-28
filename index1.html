@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purva Desale | Data Analyst Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0b1120;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: #111827;
+        }
+
+        nav h2 {
+            color: #a78bfa;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #a78bfa;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 10%;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #a78bfa;
+        }
+
+        .hero h3 {
+            font-size: 25px;
+            color: #60a5fa;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            color: #cbd5e1;
+            line-height: 1.7;
+            font-size: 18px;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            margin-right: 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            background: #7c3aed;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        section {
+            padding: 70px 10%;
+        }
+
+        section h2 {
+            font-size: 35px;
+            color: #a78bfa;
+            margin-bottom: 25px;
+        }
+
+        .about p {
+            color: #cbd5e1;
+            line-height: 1.8;
+            max-width: 800px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #1e293b;
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background: #111827;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+
+        .project h3 {
+            color: #60a5fa;
+            margin-bottom: 12px;
+        }
+
+        .project p {
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #111827;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Purva Desale</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+
+        <h1>Hello, I'm <span>Purva</span></h1>
+
+        <h3>Aspiring Data Analyst</h3>
+
+        <p>
+            MCA student passionate about Data Analytics, 
+            Power BI, Excel, SQL and data-driven insights.
+            I enjoy transforming raw data into meaningful dashboards
+            and visualizations.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+    </div>
+
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am currently pursuing a Master of Computer Applications
+            and building my skills in Data Analytics. I am interested
+            in working with data, creating dashboards and finding
+            useful insights from real-world datasets.
+        </p>
+
+    </section>
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">Excel</div>
+            <div class="skill">Power BI</div>
+            <div class="skill">SQL</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Tableau</div>
+            <div class="skill">Python</div>
+            <div class="skill">Data Visualization</div>
+            <div class="skill">Data Analytics</div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>🏏 IPL Win Probability Predictor</h3>
+                <p>
+                    Machine learning project that predicts the
+                    live winning probability of IPL teams using
+                    match situation data.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>🌫️ Smart City AQI Prediction System</h3>
+                <p>
+                    AI-powered analytics project using real-time
+                    air quality data with prediction and Power BI
+                    visualization.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>📊 Power BI Sales Dashboard</h3>
+                <p>
+                    Interactive dashboard for analyzing sales,
+                    customers, products and order trends.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>📈 Excel Analytics Dashboard</h3>
+                <p>
+                    Interactive Excel dashboard created to analyze
+                    student and business-related data.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Email: your-email@gmail.com</p>
+
+        <br>
+
+        <a href="https://www.linkedin.com/" class="btn">
+            LinkedIn
+        </a>
+
+        <a href="https://github.com/" class="btn">
+            GitHub
+        </a>
+
+    </section>
+
+    <footer>
+        © 2026 Purva Desale | Data Analyst Portfolio
+    </footer>
+
+</body>
+</html>
